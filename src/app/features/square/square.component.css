@@ -1,0 +1,11 @@
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.unpar {
+  background-color: orange;
+}
+.par {
+  background-color: pink;
+}

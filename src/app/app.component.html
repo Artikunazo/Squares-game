@@ -1,0 +1,7 @@
+<ng-container *ngFor="let square of squares">
+  <app-square
+    [id]="square"
+    (elementSelected)="removeElement($event)"
+  ></app-square>
+</ng-container>
+<button type="button" (click)="createSquare()">Create square</button>

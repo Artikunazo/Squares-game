@@ -1,0 +1,10 @@
+<div
+  class="square"
+  (click)="removeElement()"
+  [ngClass]="{
+    unpar: id % 2 === 0,
+    par: id % 2 === 1
+  }"
+>
+  {{ id }}
+</div>
